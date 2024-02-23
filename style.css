@@ -1,8 +1,15 @@
 /* estilo geral */
-*{                                            /*seletor universal*/
+*{                                         /*seletor universal*/
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
+}
+
+.logo img{
+    width: 200px;
+    height: 200px;
 }
 
 body{
@@ -24,4 +31,41 @@ header .interface{
     display: flex;                           /* alinhar itens - "flex" horizontal*/
     align-items: center;                     /*alinha itens dentro do flex*/
     justify-content: space-between;          /*alinha/espaçamento um elementos entre outro elemento*/
+}
+
+header a {
+    color: rgb(110, 108, 108);
+
+    display: inline-block;
+    text-decoration: none;
+    transition: .2s;
+}
+
+header a:hover{
+    color: rgb(44, 43, 43);
+    transform: scale(1.25);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;                   /* alinhar itens - "inline-block" elementos lado a lado*/
+    padding: 0 40px;
+}
+
+header .bt-contato button{
+
+    /* background-color: ; */
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: 600px;
+
+    padding: 10px 10px;
+
+
 }
