@@ -1,8 +1,27 @@
-
-
-.icon{
-    width: 25px;
-    height: 25px;
+/* estilo geral */
+*{                                            /*seletor universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body{
+    background-color: #ffffff;
+    height: 100vh;
+}   
 
+.interface{
+    max-width: 1200px;                        /*largura maxima*/
+    margin: 0 auto;
+}
+
+/* estilo do cabeçario "header" */
+header{
+    padding: 40px 4%;
+}
+
+header .interface{
+    display: flex;                           /* alinhar itens - "flex" horizontal*/
+    align-items: center;                     /*alinha itens dentro do flex*/
+    justify-content: space-between;          /*alinha/espaçamento um elementos entre outro elemento*/
+}
