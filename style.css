@@ -13,7 +13,9 @@
 }
 
 body{
-    background-color: #ffffff;
+    /* background-color: #ffba58; */
+    background-color: #ffff;
+
     height: 100vh;
 }   
 
@@ -34,20 +36,20 @@ header .interface{
 }
 
 header a {
-    color: rgb(110, 108, 108);
+    color: #444343;
 
     display: inline-block;
-    text-decoration: none;
-    transition: .2s;
+    text-decoration: none;                  /*p/ efeitos*/
+    transition: .2s;                        /*p/ efeitos*/
 }
 
 header a:hover{
-    color: rgb(44, 43, 43);
-    transform: scale(1.25);
+    color: #262626 ;
+    transform: scale(1.25);                /*p/ efeitos*/
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style-type: none;                  
 }
 
 header nav ul li{
@@ -57,15 +59,18 @@ header nav ul li{
 
 header .bt-contato button{
 
-    /* background-color: ; */
+    background-color:#d16d00 ;
     border: 0;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
 
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600px;
 
-    padding: 10px 10px;
+    padding: 10px 40px;
 
+}
 
+header .bt-contato button:hover{
+    box-shadow: 0 0 8px #d16c00f6;
 }
