@@ -1,4 +1,4 @@
-/* estilo geral */
+/* ESTILO GERAL */
 *{                                         /*seletor universal*/
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -8,14 +8,17 @@
 }
 
 .logo img{
+
     width: 200px;
-    height: 200px;
+    height:200px;
+
 }
 
 body{
-    /* background-color: #ffba58; */
-    background-color: #ffff;
-
+    /* background-color: #ffba58;
+    background-color: #ffff; */
+    background-color: #d8a48f
+    ;
     height: 100vh;
 }   
 
@@ -23,8 +26,27 @@ body{
     max-width: 1200px;                        /*largura maxima*/
     margin: 0 auto;
 }
+.flex{
+    display: flex;
+}
 
-/* estilo do cabeçario "header" */
+.bt-contato button{
+
+    background-color:#a63d40f0;
+    color: #efebce;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+    font-size: 18px;
+    font-weight: 600px;
+
+    padding: 10px 40px;
+    transition: .2s;
+
+}
+
+/* ESTILO DO CABEÇALHO"header" */
 header{
     padding: 40px 4%;
 }
@@ -36,7 +58,7 @@ header .interface{
 }
 
 header a {
-    color: #444343;
+    color: #efebce;
 
     display: inline-block;
     text-decoration: none;                  /*p/ efeitos*/
@@ -44,8 +66,8 @@ header a {
 }
 
 header a:hover{
-    color: #262626 ;
-    transform: scale(1.25);                /*p/ efeitos*/
+    color: #efebce ;
+    transform: scale(1.05);                /*p/ efeitos*/
 }
 
 header nav ul {
@@ -57,20 +79,49 @@ header nav ul li{
     padding: 0 40px;
 }
 
-header .bt-contato button{
+.bt-contato button:hover{
+    box-shadow: 0 0 8px #a63d40;
+    transform: scale(1.05);
+}
 
-    background-color:#d16d00 ;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
+/* ESTILO DO TOPO DO SITE */
 
-    font-size: 18px;
-    font-weight: 600px;
+section .topo-do-site{
+    padding: 40px 4%;
+}
+section .topo-do-site .flex{
+    align-items: center;
+    justify-self: center;
+    gap: 90px
+}
 
-    padding: 10px 40px;
+.topo-do-site .txt-topo-site h1{
+    color: #efebce;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color:#a63d40;
 
 }
 
-header .bt-contato button:hover{
-    box-shadow: 0 0 8px #d16c00f6;
+.topo-do-site .txt-topo-site p{
+    color:#efebce;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-perfil img{
+
+    animation: flutuar 2s ease-in-out infinite alternate;
+    position: relative;
+}
+
+@keyframes flutuar{
+    0%{
+        top:0;
+    }
+    100%{
+        top: 30px;
+    }
 }
