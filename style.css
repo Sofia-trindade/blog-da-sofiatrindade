@@ -28,6 +28,8 @@ body{
 }
 .flex{
     display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
 .bt-contato button{
@@ -60,6 +62,7 @@ header .interface{
 header a {
     color: #efebce;
 
+    font-size: 20px;
     display: inline-block;
     text-decoration: none;                  /*p/ efeitos*/
     transition: .2s;                        /*p/ efeitos*/
@@ -86,42 +89,48 @@ header nav ul li{
 
 /* ESTILO DO TOPO DO SITE */
 
-section .topo-do-site{
+section .sobre{
     padding: 40px 4%;
 }
-section .topo-do-site .flex{
+section .sobre .flex{
     align-items: center;
     justify-self: center;
     gap: 90px
 }
 
-.topo-do-site .txt-topo-site h1{
+.sobre .txt-sobre h2{
+    
     color: #efebce;
-    font-size: 42px;
+    font-size: 40px;
     line-height: 40px;
+    margin-bottom: 30px;
 }
 
-.topo-do-site .txt-topo-site h1 span{
+.sobre .txt-sobre h2 span{
     color:#a63d40;
+    display: block;
 
 }
 
-.topo-do-site .txt-topo-site p{
+.sobre .txt-sobre p{
     color:#efebce;
-    margin: 40px 0;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: justify;              /*"justify" alinha o texto*/
 }
 
-.topo-do-site .img-perfil img{
+
+/* .sobre .img-perfil img{
 
     animation: flutuar 2s ease-in-out infinite alternate;
     position: relative;
-}
+} */
 
-@keyframes flutuar{
+/* @keyframes flutuar{
     0%{
         top:0;
     }
     100%{
         top: 30px;
     }
-}
+} */
