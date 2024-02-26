@@ -15,10 +15,8 @@
 }
 
 body{
-    /* background-color: #ffba58;
-    background-color: #ffff; */
-    background-color: #d8a48f
-    ;
+    /* background-color: #efebce; */
+    background-color: #d8a48f;
     height: 100vh;
 }   
 
@@ -90,6 +88,9 @@ header nav ul li{
 /* ESTILO DO TOPO DO SITE */
 
 section .sobre{
+
+    
+    /* background-color: #a63d40; */
     padding: 40px 4%;
 }
 section .sobre .flex{
@@ -119,12 +120,19 @@ section .sobre .flex{
     text-align: justify;              /*"justify" alinha o texto*/
 }
 
-.sobre .bt-social {
-    /* color:#a63d40; */
+.bt-social i{
+
+    color: #a63d40;
+    width: 80px;
+    height: 80px;
+}
+/* .bt-social {
+
+    color:#a63d40;
     width: 60px;
     height: 60px;
     border-radius: 30px;
-}
+} */
 
 
 /* .sobre .img-perfil img{
