@@ -119,6 +119,13 @@ section .sobre .flex{
     text-align: justify;              /*"justify" alinha o texto*/
 }
 
+.sobre .bt-social {
+    /* color:#a63d40; */
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
 
 /* .sobre .img-perfil img{
 
